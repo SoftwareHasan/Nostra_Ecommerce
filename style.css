@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+  
+  
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;   
+}
+
+.navbar-links{
+    display: flex;
+    column-gap: 20px;
+    
+}
+.navbar-links a{
+    text-decoration: none;
+    
+    
+}
+.navbar-links a:hover{
+    text-decoration: underline;
+    
+}
+body{
+    font-family: sans-serif;     
+}
+.nav_bar_taggle{
+  display: none;
+}
+.side-navbar{
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: -60%;
+    right: 0;
+    padding: 20px;
+    transition: 0.5s;
+    
+ 
+}
+.side-navbar-link{
+  margin-top: 30px;
+  
+}
+.side-navbar-link a:hover{
+    text-decoration: none;
+    color: aqua;
+    
+}
+@media screen and (max-width:700px) {
+    .nav_bar_taggle{
+        display: block;
+    }
+    .navbar-links{
+        display: none;
+    }
+    .head{
+        display: none;
+    }
+    .service_container{
+        flex-direction: column;
+      
+    }
+    .new_arrivals{
+        flex-wrap: wrap;
+    }
+    .news input{
+       width: 50vw;
+    }
+    .heading{
+        margin-left: 0px;
+    }
+   
+    
+}
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+.header_button{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 20px;
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.service_container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+    
+}
+.service_container div{
+    background-color: #F2F4F7;
+    border-radius: 5px;
+    padding: 10px;
+}
+.new_arrivals{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.new_arrivals button{
+   padding-left: 10%;
+   padding-right: 10%;
+   padding-top: 5%;
+   padding-bottom: 5%;
+   margin-left: 80px;
+   margin-top: 10px;
+   color: black;
+   border: none;
+   border-radius: 10px;
+   cursor: pointer;
+   justify-content: center;
+}
+.heading{
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 700px;
+
+}
+.news{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+.news input{
+    padding: 11px;
+    width: 80vw;
+    border: solid 3px black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.text button{
+    display: flex;
+    align-items: center;
+    margin-left: 600px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    border-radius: 10px;
+    color: #F2F4F7;
+    cursor: pointer;
+}
+.new_arrivals img{
+    height: 300px;
+    width: 300px;
+}
+
+.footer{
+    margin-top: 20px;
+    padding: 40px;
+    background-color: black;
+    color: white;
+}
+.product-section{
+    margin-top: 20px;
+}
+.product-search{
+    width:80%;
+    border: solid black 2px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+.product-search input{
+ border: none;
+ width: 100%;
+ background-color: transparent;
+ 
+}
+
+.product-search input:focus{
+ outline: none;
+}
+.products{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.products img{
+    width:300px;
+    height: 300px;
+}
+
+
+.container{
+    max-width: 600px;
+    margin:50px auto ;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+}
+form{
+    margin-top: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.container input,textarea{
+    width:100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.container button{
+    width: 104%;
+    padding:10px ;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+ a{
+    text-decoration: none;
+    
+}
+
